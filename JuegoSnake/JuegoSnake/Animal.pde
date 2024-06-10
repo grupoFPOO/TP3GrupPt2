@@ -11,6 +11,6 @@ class Animal {
   }
 
   void dibujar() {
-    image(img, x, y, 20, 20);
+    image(img, x, y, 35, 35);
   }
 }

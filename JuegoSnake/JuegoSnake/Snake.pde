@@ -8,7 +8,7 @@ class Snake {
     cabeza = new Cuadrado(x, y);
     cuerpo = new ArrayList<Cuadrado>();
     direccion = 0;
-    velocidad = 100;
+    velocidad = 200;
   }
 
   void mover(float deltaTime) {
@@ -57,9 +57,9 @@ class Snake {
   }
 
   boolean verificarColision(Animal animal) {
-    return cabeza.x < animal.x + 20 &&
-           cabeza.x + 20 > animal.x &&
-           cabeza.y < animal.y + 20 &&
-           cabeza.y + 20 > animal.y;
+    return cabeza.x < animal.x + 35 &&
+           cabeza.x + 35 > animal.x &&
+           cabeza.y < animal.y + 35 &&
+           cabeza.y + 35 > animal.y;
   }
 }

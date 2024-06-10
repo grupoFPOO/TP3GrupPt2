@@ -7,6 +7,6 @@ class Cuadrado {
   }
 
   void dibujar() {
-    rect(x, y, 20, 20);
+    rect(x, y, 35, 35);
   }
 }
